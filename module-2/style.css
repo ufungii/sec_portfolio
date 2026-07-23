@@ -116,12 +116,17 @@ th {
   content: "★ ";
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem;
+  }
   .nav-links {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
   table {
     width: 100%;
+    font-size: 0.85rem;
   }
 }
